@@ -1,0 +1,16 @@
+module timer_tb();
+reg clk,rst;
+wire [7:0] sec,min,hour;
+timer dut(clk,rst,sec,min,hour);
+initial begin
+clk=0;
+forever #2 clk=~clk;
+end
+initial begin
+rst=1;
+#4;
+rst=0;
+#3600;
+$finish;
+end
+endmodule
