@@ -11,3 +11,12 @@ A 24-hour timer generates time-based pulses that can be used for applications li
 **Time Counter:** Maintain hours, minutes, and seconds, incrementing them appropriately.
 
 **Reset Condition:** The timer resets after 24 hours to start over.
+
+**simulation results:**
+
+![image](https://github.com/user-attachments/assets/42c85a9a-8dc1-493b-9e1e-8f495b746526)
+
+**schematic:**
+
+![image](https://github.com/user-attachments/assets/5e2c913b-1a20-415f-968e-03b438d9bb69)
+
